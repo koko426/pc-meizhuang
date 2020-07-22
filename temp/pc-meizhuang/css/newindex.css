@@ -1,0 +1,1591 @@
+99@charset "gb2312";
+/* CSS Document */
+*{margin:0; padding:0;}
+center,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0; padding:0;vertical-align: baseline;}
+body{
+	font-family:"宋体";
+	color:#666;
+	font-size:12px;
+	background:#fff;
+	/*background:url(../images/index_hair-bg.png) repeat;*/
+	}
+img, div, input, td, ul, li,table,a{ behavior:url("iepngfix.htc");word-wrap: break-word;word-break: break-all;}
+a{color:#444; font-size:12px;text-decoration:none; transition: color 0.15s ease 0s;	background:url(about:blank);}
+a:hover{text-decoration:underline; color:#C20000;}
+img{border:0;}
+li,h2,a,span,h4,h3{
+	list-style:none;
+	overflow:hidden;
+	}
+h2,h4,h3{
+	color:#a80000;
+	}
+.both{
+	clear:both;
+	}
+.clearfix{
+	zoom:1;
+}
+.clearfix:after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+}
+/*img{
+	cursor:pointer;
+	opacity:1;
+	}
+img{
+	background:#f5f5f5;
+	display:block;
+	-webkit-transition: opacity 0.5s ease;
+	-moz-transition: opacity 0.5s ease;
+	-khtml-transition: opacity 0.5s ease;
+	-o-transition: opacity 0.5s ease;
+	transition: opacity 0.5s ease;
+}
+img:hover{
+	opacity:0.8;
+	filter:alpha(opacity:80);
+	_filter:none;
+	}*/    /*IMG鼠标经过变淡效果*/
+
+
+
+
+/*****for—ie6-png透明解决方案****/
+/*****for—ie6-png透明解决方案****/
+* html .videotag_ul li.cur {
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="../images/point_red.png");
+background:none;
+}
+* html .videotag_ul li {
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="../images/point_white.png");
+background:none;
+}
+* html .videotag_ul li {
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="../images/point_white.png");
+background:none;
+}
+/*****for—ie6-png透明解决方案——END——****/
+/*****for—ie6-png透明解决方案——END——****/
+
+
+
+/************************公用头部html——css**********************/
+/************************公用头部html——css**********************/
+/************************公用头部html——css**********************/
+.new_index{
+	background:#fff;
+	width:960px;
+	margin:0 auto;
+	}
+.box9{ width:960px;margin:0 auto;}
+.header{ width:948px; padding-right:10px; margin:0 auto; height:33px; line-height:33px;border-radius: 2px;  background:url(../images/header_bg.jpg);}
+.header .weibo{ color:#6D6D6D; font-size:12px; width:320px; float:left; padding-left:10px; }
+.header .head_r{ float:right; font-size:12px; color:#6D6D6D;}
+.header .head_r a{ font-size:12px; color:#6D6D6D; padding:0 4px;}
+.header .head_r a:hover{
+	color:#c90000;
+	text-decoration:underline;
+	}
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+.logo{
+	height:70px;
+	padding:5px 0 0;
+	}
+.logo .logopic{ float:left; padding:0 10px;}
+.logo .logoadv{ float:right; width:468px; height:60px; padding:5px 0; display:inline; text-align:right;/*background:url(../images/job_main_pic.png) repeat;*/}
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+.nav{
+	background:url(../images/nav_bg.jpg);
+	height:40px;
+	margin-top:0;
+	border-radius:2px;
+	}
+.nav ul{  padding-left:10px;}
+.nav ul li{ float:left; }
+.nav ul li a{ color:#FFF;font-family: '微软雅黑';  float:left;height:40px; line-height:40px; display:block; padding:0 16px; font-size:14px;}
+.nav span{background:url(../images/nav_li_bg.jpg) no-repeat; height:40px; width:1px; display:block; float:left;}
+.nav ul li a:hover{ background:url(../images/nav_li_hover_bg.jpg);height:40px; color:#fff; text-decoration:none; }
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+.indadv1{
+	height:auto;
+	padding:5px 0;
+	background:#f5f3f5;
+	background:#F3F3F3;
+	border-top:1px solid #eee;
+	border-bottom:1px solid #eee;
+	background:#fff;
+/*	background:url(../images/job_main_pic.png) repeat;*/
+	}
+
+.indadv_left{
+	width:468px;
+	height:auto;
+	float:left;
+	border:1px solid #ddd;
+	}
+.indadv_right{
+	width:468px;
+	height:auto;
+	float:right;
+	border:1px solid #ddd;
+	}
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+.subnav{
+	height:55px;
+	margin:3px 0 5px;
+	background:url(../images/sub_nav_bg.png) repeat-x;
+	}
+.subnav_table{
+	width:960px;
+	}
+.subnav_table ul.table_ul{
+	display:inline-block;
+	padding:2px 8px 0;
+	*padding:2px 6px 0;
+	}
+.subnav_table ul li{
+	display:inline;
+	float:left;
+	padding:0 15px;
+	*padding:0 12px;
+	}
+.subnav_table .table_li{
+	height:25px;
+	line-height:25px;
+	}
+.subnav_table .table_li a{
+	text-shadow:white 0 1px 0;
+	text-align:left;
+	font-family:"宋体";
+	font-size:12px;
+	color:#484848;
+	}
+.subnav_table .table_li a:hover{
+	color:#c20000;
+	text-decoration:underline;
+	}
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+.main{
+	width:960px;
+	padding:5px 0;
+	}
+.main .top_info{
+	width:960px;
+	padding-bottom:5px;
+	display:inline-block;
+	}
+.top_info .info_left{
+	width:308px;
+	float:left
+	}
+.info_left .info_left_slide{
+	background:#f2f3f5;
+	border:1px solid #D9D9D9;
+	padding:3px;
+	overflow:hidden;
+	width:300px;
+	height:330px;
+	position:relative;
+	}
+.info_left_slide .slide_title{
+	position:absolute;
+	bottom:2px;
+	width:300px;
+	height:30px;
+	background:#000;
+	text-align:center;
+	opacity: 0.6;/*火狐透明*/
+	filter:alpha(opacity=60);/*IE透明*/
+	}
+.info_left_slide .slide_title a{
+	font-size:14px;
+	line-height:30px;
+	color:#fff;
+	}
+.info_left_slide .slide_title a:hover{
+	color:#FF3399;
+	text-decoration:underline;
+	}
+.info_left_slide img{
+	}	
+
+.info_left .slide_page{
+	margin-top:15px;
+	padding:0 8px;
+	width:292px;
+	height:25px;
+	}
+.slide_page .slide_page_li{
+	float:left;
+	width:40px;
+	height:25px;
+	text-align:center;
+	line-height:20px;
+	*line-height:25px;
+	background:#DBDBDB;
+	}
+.slide_page .slide_page_line{
+	float:left;
+	width:0;
+	height:25px;
+	border-left:1px solid #fff;
+	border-right:1px solid #818181;
+	}
+.slide_page .slide_page_li a{
+	font-family:"宋体";
+	display:inline-block;
+	font-size:18px;
+	color:#515151;
+	padding:3px 15px 4px 16px;
+	background:#DBDBDB;
+	}
+.slide_page .slide_page_li a:hover{
+	background:#C20000;
+	color:#fff;
+	}
+.info_left .info_left_title{
+	padding:15px 5px 0;
+	}
+.info_left_title ul{
+	padding-left:5px;
+	}
+.info_left_title a{
+	font-family:"宋体";
+	font-size:14px;
+	height:25px;
+	line-height:25px;
+	color:#000;
+	}
+.info_left_title a:hover{
+	color:#c90000;
+	text-decoration:underline;
+	}
+.info_left_title .left_title_li{
+	width:293px;
+	height:25px;
+	max-width:298px;
+	}
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+.top_info .info_mid{
+	float:left;
+	display:inline;
+	margin-left:12px;
+	margin-right:3px;
+	background:#fefff;
+	border-radius:5px;
+	}
+	
+.info_mid .info_mid_t1{
+	padding:10px 5px;
+	width:390px;
+	height:130px;
+	}
+.info_mid .info_mid_t2{
+	padding:5px 5px 10px;
+	width:350px;
+	height:90px;
+	}
+.info_mid .mid_line{
+	border-top:1px solid #c5c5c5;
+	border-bottom:1px solid #fff;
+	}
+.info_mid_t1 .mid_t_l{
+	float:left;
+	border:1px solid #D9D9D9;
+	padding:1px;
+	background:#fff;
+	width:110px;
+	*height:118px;
+	height:120px;
+	}
+.info_mid .info_mid_t1 .mid_t_r3{
+	padding-left:5px;
+	}
+.info_mid_t1 .mid_t_r{
+	float:right;
+	padding-left:15px;
+	}
+.mid_t_r h2{
+	width:260px;
+	height:25px;
+	*margin-bottom:5px;
+	overflow:hidden;
+	}
+.mid_t_r h2 a{
+	max-width:225px;
+	height:25px;
+	line-height:25px;
+	font-size:16px;
+	font-weight:bold;
+	}
+.mid_t_r h2 a:hover{
+	text-decoration:underline;
+	}
+.mid_t_r .mid_t_li{
+	overflow:hidden;
+	max-width:260px;
+	width:260px;
+	height:25px;
+	line-height:25px;
+	*line-height:25px;
+	}
+.mid_t_li a{
+	font-size:14px;
+	color:#4B4A4A;
+	}
+.mid_t_li a:hover{
+	color:#c20000;
+	text-decoration:underline;
+	}
+.mid_t_r .mid_t_li .li_dot{
+	margin-right:5px;
+	margin-bottom:4px;
+	*margin-bottom:6px;
+	display:inline-block;
+	background:url(../images/li_dot.png) no-repeat;
+	width:3px;
+	height:3px;
+	}
+.info_mid_t2 h2{
+	width:390px;
+	overflow:hidden;
+	height:30px;
+	line-height:30px;
+	font-weight:bold;
+	text-align:center;
+	}
+.info_mid_t2 h2 a{
+	font-size:14px;
+	}
+.info_mid_t2 h2 a:hover{
+	}
+.info_mid_t2 .mid_t2_li{
+	width:390px;
+	height:20px;
+	line-height:18px;
+	text-align:center;
+	}
+.mid_t2_li span{
+	display:inline-block;
+	width:180px;
+	height:15px;
+	overflow:hidden;
+	}
+.mid_t2_li a{
+	font-size:12px;
+	color:#4B4A4A;
+	}
+.mid_t2_li a:hover{
+	color:#c20000;
+	text-decoration:underline;
+	}
+.mid_t2_li i{
+	font-style:normal;
+	padding:0 8px;
+	}	
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/	
+.top_info .info_right{
+	float:left;
+	display:inline;
+	margin-left:10px;
+	margin-right:3px;
+	*margin-right:0px;
+	}
+.info_right .info_right_top1{
+	width:218px;
+	padding:1px;
+	border:1px solid #d5d5d5;
+	height:120px;
+	background:#fff;
+	margin-bottom:15px;
+	}
+.info_right .info_right_top2{
+	width:220px;
+	padding:1px;
+	border:1px solid #D7D7D7;
+	height:203px;
+	overflow:hidden;
+	background:#fff;
+	margin-bottom:15px;
+	}
+.info_right_top2 h2{
+	color:#000;
+	padding-left:10px;
+	border-bottom:1px solid #d5d5d5;
+	height:30px;
+	line-height:30px;
+	background: #fafafa;
+    background: -moz-linear-gradient(top, #fff 0%, #e5e5e5 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #e5e5e5));
+    background: -webkit-linear-gradient(top, #fff 0%, #e5e5e5 100%);
+    background: -o-linear-gradient(top, #fff 0%, #e5e5e5 100%);
+	}
+.info_right_top2 ul{
+	padding:10px 8px;
+	}
+.info_right_top2 .top2_li{
+	width:200px;
+	height:20px;
+	line-height:20px;
+	}
+.info_right_top2 .top2_li a{
+	font-size:12px;
+	}
+.info_right .info_right_top3{
+	width:220px;
+	padding:1px;
+	border:1px solid #d5d5d5;
+	height:150px;
+	background:#fff;
+	}
+.info_right_top2 .top2_li .li_dot{
+	float:left;
+	margin-right:5px;
+	margin-top:8px;
+	display:inline;
+	background:url(../images/li_dot.png) no-repeat;
+	width:3px;
+	height:3px;
+	}
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_脸型配发型-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/	
+.hair_diy_top .h-f_top_title{
+	width:960px;
+	height:35px;
+	float:left;
+	background:url(../images/lxpfx_top.png) no-repeat;
+	margin-bottom:5px;
+	}
+.R_Cont01{
+	width:960px;
+	height:210px;
+	float:left;
+	display:block;
+	overflow:hidden;
+	margin-top:10px;
+	}
+#Nav{
+	width:30px;
+	height:210px;
+	float:left;
+	margin-top:0px;
+	display:block;
+	list-style:none;
+	}
+#Nav li{
+	width:30px;
+	font-size:16px;
+	color:#000;
+	float:left;
+	display:inline;
+	margin-top:2px;
+	height:66px;
+	background:#ddd;
+	font-weight:bold;
+	text-align:center;
+	overflow:hidden;
+	line-height:35px;
+	}
+#Nav li span{display:block;}
+#Nav li.Nav02 {
+	cursor:pointer;
+	background:#fff0;
+	height:67px;
+	border:1px solid #CB366D;
+	border-right:none;
+	padding:1px 1px;
+	float:left;
+	font-weight:bold;
+	overflow:hidden;
+	}
+#Nav li.Nav02 span{background:#c90000;color:#fff; height:67px;}
+.Ad_Cont, .Ad_Cont0 {width:925px; height:203px;margin:5px 0px 3px 5px;_margin:5px 0 3px 2px;float:left; display:inline; overflow:hidden}
+.Ad_Cont li,.Ad_Cont0 li {width:180px; height:200px;float:left; text-align:center; margin-right:5px; display:inline;}
+.Ad_Cont li a,.Ad_Cont0 li a{height:20px;line-height:22px; font-size:14px;text-align:center;font-family:"微软雅黑";text-align:center;}
+.Ad_Cont li img,.Ad_Cont0 li img{width:180px; height:200px;}
+.Ad_Cont li a:hover,.Ad_Cont0 li a:hover{color:#ff0000;}
+.ad_1 a{color:#eb1414; font-weight:500;}
+.ad_1 a:hover{color:#000;text-decoration:underline;}
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_脸型配发型-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/	
+
+
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_发型教程-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/	
+.info_hair_diy{
+	padding:10px 0 0;
+	display:inline-block;
+	}
+.info_hair_diy .hair_diy_top{
+	height:auto;
+	display:inline-block
+	}
+.hair_diy_top .diy_top_title{
+	width:960px;
+	height:35px;
+	float:left;
+	background:url(../images/fxjc_top.png) no-repeat;
+	margin-bottom:5px;
+	}
+.hair_diy_top .top_sub_title{
+	text-align:center;
+	width:960px;
+	float:left;
+	height:25px;
+	padding-bottom:5px;
+	border-bottom:1px solid #E2E2E2;
+	line-height:25px;
+	}
+
+.hair_diy_top .top_sub_title a{
+	font-size:12px;
+	color:#7C7B7B;
+	}
+.hair_diy_top .top_sub_title i{
+	padding:3px 5px 0;
+	font-style:normal;
+	color:#7C7B7B;
+	}
+.hair_diy_mid{
+	width:950px;
+	padding:15px 5px 5px;
+	display:inline-block;
+	}
+
+.hair_diy_mid .hair_diy_mid_l{
+	background:#f2f3f5;
+	border:1px solid #D9D9D9;
+	padding:3px;
+	overflow:hidden;
+	width:300px;
+	height:330px;
+	float:left;
+	position:relative;
+	}
+.hair_diy_mid_l .slide_title{
+	position:absolute;
+	bottom:3px;
+	width:300px;
+	height:30px;
+	background:#000;
+	text-align:center;
+	opacity: 0.6;/*火狐透明*/
+	filter:alpha(opacity=60);/*IE透明*/
+	}
+.hair_diy_mid_l .slide_title a{
+	font-size:14px;
+	line-height:30px;
+	color:#fff;
+	}
+.hair_diy_mid_l .slide_title a:hover{
+	color:#FF3399;
+	text-decoration:underline;
+	}
+.hair_diy_mid .hair_diy_mid_m{
+	width:365px;
+	padding-left:15px;
+	float:left;
+	height:340px;
+	overflow:hidden;
+	}
+.diy_mid_m_top{
+	display:inline-block;
+	width:360px;
+	padding-left:5px;
+	padding-bottom:15px;
+	text-align:center;
+	}
+.diy_mid_m_top .m_top_li{
+	text-align:center;
+	width:160px;
+	padding:0 10px;
+	background:url(../images/m_top_li_bg.png);
+	height:25px;
+	float:left;
+	line-height:25px;
+	}
+.m_top_li .m_top_a2{
+	font-size:14px;
+	}
+.diy_mid_m_top .m_top_li0{
+	text-align:center;
+	width:350px;
+	height:25px;
+	float:left;
+	line-height:25px;
+	}
+.m_top_li0 .m_top_a{
+	color:#c30000;
+	font-size:16px;
+	font-weight:bold;
+	}
+.hair_diy_mid_m .info_mid_t1{
+	padding:10px 5px;
+	display:inline-block;
+	width:320px;
+	height:130px;
+	}
+.info_mid_t1 .mid_t_l{
+	float:left;
+	border:1px solid #D9D9D9;
+	padding:1px;
+	background:#fff;
+	width:110px;
+	*height:118px;
+	height:120px;
+	}
+.info_mid_t1 .mid_t_r{
+	float:left;
+	padding-left:15px;
+	/*width:260px;*/
+	}	
+/*中间部分*/
+.info_mid_m_t{
+	padding:5px 0;
+	width:365px;
+	height:130px;
+	}
+.info_mid .info_mid_t2{
+	padding:5px 5px 10px;
+	width:390px;
+	height:90px;
+	}
+.info_mid .mid_line{
+	border-top:1px solid #c5c5c5;
+	border-bottom:1px solid #fff;
+	}
+.info_mid_m_t .mid_t_l{
+	float:left;
+	border:1px solid #D9D9D9;
+	padding:1px;
+	background:#fff;
+	width:110px;
+	*height:118px;
+	height:120px;
+	}
+.info_mid_m_t .mid_t_m_r{
+	float:left;
+	padding-left:15px;
+	}
+.mid_t_m_r h2 {
+	width:235px;
+	height:25px;
+	overflow:hidden;
+	}
+.mid_t_m_r h2 a{
+	max-width:225px;
+	width:220px;
+	height:25px;
+	line-height:25px;
+	overflow:hidden;
+	font-family:"宋体";
+	font-size:14px;
+	color:#383838;
+	font-weight:bold;
+	}
+.mid_t_m_r h2 a:hover{
+	text-decoration:underline;
+	}
+.mid_t_m_r .mid_t_li{
+	overflow:hidden;
+	max-width:235px;
+	width:230px;
+	height:25px;
+	line-height:25px;
+	}
+.hair_diy_mid .mid_t_li a{
+	font-size:14px;
+	color:#4B4A4A;
+	}
+.hair_nv_mid_m .mid_t_li a{
+	font-size:12px;
+	color:#4B4A4A;
+	}
+.mid_t_li a:hover{
+	color:#c20000;
+	text-decoration:underline;
+	}
+.mid_t_m_r .mid_t_li .li_dot{
+	float:left;
+	margin-right:5px;
+	margin-top:12px;
+	display:inline;
+	background:url(../images/li_dot.png) no-repeat;
+	width:3px;
+	height:3px;
+	}	
+.hair_diy_mid .hair_diy_mid_r{
+	float:left;
+	margin-left:15px;
+	border:1px solid #C3C3C3;
+	width:245px;
+	height:340px;
+	}
+.hair_diy_mid_r .sub_diy_mid_r{
+	border:4px solid #fff;
+	background:#f1f1f1;
+	width:237px;
+	height:332px;
+	}
+.sub_diy_mid_r .nav_top{
+	height:35px;
+	line-height:35px;
+	}
+.nav_top .nav_top_h2{
+	width:100px;
+	text-align:center;
+	float:left;
+	}
+.nav_top h2{
+	font-family:"宋体";
+	font-size:14px;
+	font-weight:bold;
+	color:#000;
+	}
+.nav_top .nav_top_span{
+	float:right;
+	}
+.nav_top span{
+	display:inline;
+	margin-top:8px;
+	padding-right:5px;
+	background:url(../images/nav_top_span_bg.png) no-repeat;
+	width:70px;
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	}
+.nav_top span a{
+	color:#fff;
+	font-weight:bold;
+	display:inline-block;
+	}
+.nav_top span a:hover{
+	color:#fff;
+	}
+.sub_diy_mid_r .nav_title{
+	padding-left:5px;
+	}
+.nav_title li{
+	font-size:14px;
+	font-family:"微软雅黑";
+	width:230px;
+	height:33px;
+	line-height:33px;
+	overflow:hidden;
+	}
+.nav_title li a{
+	font-size:14px;
+	}
+/*********下部分********/
+.hair_diy_bottom{
+	width:940px;
+	padding:5px 10px 0;
+	}
+.hair_diy_bottom .bottom_l1{
+	width:298px;
+	border:1px solid #D5D5D5;
+	float:left;
+	}
+.margin_m2,.margin_r2{
+	margin-left:20px;
+	}
+.li_header{
+	width:298px;
+	padding-bottom:10px;
+	}
+.li_header .span_title{
+	width:124px;
+	height:35px;
+	float:left;
+	background:#bbb;
+	line-height:35px;
+	text-align:center;
+	}
+.li_header .span_title b{
+	color:#fff;
+	font-size:16px;
+	}
+.li_header .span_more{
+	background:#DEDEDE;
+	float:left;
+	width:164px;
+	padding-right:10px;
+	text-align:right;
+	height:35px;
+	line-height:35px;
+	}
+.li_content{
+	padding:5px 25px;
+	}
+.li_content .li_cont_pic{
+	width:114px;
+	float:left;
+	}
+.li_cont_pic a.cont_pic_a{
+	border:1px solid #D9D9D9;
+	display:inline-block;
+	}
+.li_cont_pic a.cont_pic_a:hover{
+	border:1px solid #a5a5a5;
+	}
+.li_cont_pic a img{
+	padding:1px;
+	}
+.li_cont_pic .li_cont_text{
+	text-align:center;
+	margin-top:5px;
+	float:left;
+	width:114px;
+	height:25px;
+	line-height:25px;
+	}
+.li_cont_text a{
+	font-size:14px;
+	}
+.li_margin{
+	padding-left:20px;
+	}
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_男士发型——块-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+.hair_diy_top .diy_top_title_man{
+	width:960px;
+	height:35px;
+	float:left;
+	background:url(../images/nan_fx_top.png) no-repeat;
+	margin-bottom:5px;
+	}
+.hair_diy_mid .hair_nan_mid{
+	width:200px;
+	height:338px;
+	padding-left:12px;
+	float:left;
+	}
+.hair_nan_mid .nan_mid_top{
+	padding-left:7px;
+	}
+.nan_mid_top a{
+	display:inline-block;
+	padding:2px;
+	border:1px solid #D9D9D9;
+	}
+.nan_mid_top a:hover{
+	border:1px solid #a5a5a5;
+	}
+.hair_nan_mid .nan_mid_text{
+	width:190px;
+	padding-left:10px;
+	}
+.nan_mid_text h4 a{
+	font-size:14px;
+	}
+.nan_mid_text h4{
+	width:190px;
+	overflow:hidden;
+	font-weight:bold;
+	color:#000;
+	height:30px;
+	line-height:30px;
+	}
+.nan_mid_text .nan_mid_text_li{
+	width:190px;
+	height:25px;
+	line-height:25px;
+	}
+.nan_mid_text_li a{
+	font-size:14px;
+	}
+
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_女士发型——块-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+.hair_diy_top .diy_top_title_nv{
+	width:960px;
+	height:35px;
+	float:left;
+	background:url(../images/nv_fx_top.png) no-repeat;
+	margin-bottom:5px;
+	}
+.hair_diy_mid .hair_nv_mid_m{
+	width:332px;
+	height:338px;
+	float:left;
+	padding:0 5px;
+	}
+.hair_nv_mid_m .nv_mid_m_t1{
+	height:160px;
+	width:330px;
+	border-bottom: 1px solid #131313;
+	padding-bottom:8px
+	}
+.hair_nv_mid_m .nv_mid_m_t2{
+	height:160px;
+	width:330px;
+	margin-top:10px;
+	}
+.nv_mid_m_t2 .t1_top{
+/*	width:300px;*/
+	height:20px;
+	line-height:20px;
+	}
+.nv_mid_m_t1 .t1_top{
+	height:20px;
+	line-height:20px;
+	}
+.t1_top .t1_top_b{
+	float:left;
+	}
+.t1_top_b b{
+	font-size:14px;
+	color:#000;
+	}
+.t1_top .t1_top_a{
+	padding-right:5px;
+	float:right;
+	max-width:235px;
+	overflow:hidden;
+	}
+.t1_top .t1_top_a a{
+	padding:0 5px;
+	}
+.nv_mid_m_t2 .t1_mid{
+	padding-top:10px;
+	height:130px;
+	}
+.nv_mid_m_t1 .t1_mid{
+	padding-top:10px;
+	height:130px;
+	}
+.t1_mid .t1_mid_pic{
+	float:left;
+	width:110px;
+	height:120px;
+	padding:1px;
+	border:1px solid #DBDBDB;
+	}
+.t1_mid .t1_mid_title{
+	float:left;
+	width:205px;
+	padding-left:10px;
+	}
+.t1_mid_title h4{
+	width:205px;
+	overflow:hidden;
+	height:25px;
+	line-height:25px;
+	}
+.t1_mid_title h4 a{
+	font-size:16px;
+	display:inline-block;
+	}
+.t1_mid_title li{
+	height:20px;
+	line-height:20px;
+	width:205px;
+	}
+.hair_nv_right{
+	background:#fefefe;
+	/*margin-left:10px;
+	display:inline;*/
+	width:300px;
+	height:338px;
+	float:left;
+	}
+.hair_nv_right .hair_nv_r_h2{
+	background:url(../images/nv_pic_hair_h2.jpg) no-repeat;
+	width:300px;
+	height:15px;
+	padding-bottom:3px;
+	}
+.hair_nv_right .nv_pic_turns{
+	text-align:center;
+	height:320px;
+	width:300px;
+	position:relative;
+	}
+.nv_pic_turns .pic_turns_l{
+	width:150px;
+	height:320px;
+	left:0;
+	position:absolute;
+	}
+.nv_pic_turns .pic_turns_r{
+	width:150px;
+	height:320px;
+	right:0;
+	position:absolute;
+	}
+.pic_turns_r .page_r{
+	right:0;
+	top:0;
+	position:absolute;
+	cursor:pointer;
+	width:100%;
+	height:320px;
+	z-index:101;
+	}
+.pic_turns_l .page_l{
+	left:0;
+	top:0;
+	position:absolute;
+	cursor:pointer;
+	width:100%;
+	height:320px;
+	z-index:101;
+	}
+.pic_turns_l .page_l span{
+	background:url(../images/pic_tab_but.png);
+	float:left;
+	width:37px;
+	height:50px;
+	background-position: 0 0;
+	vertical-align:middle;
+	margin-top:130px;
+	opacity: 0.6;/*火狐透明*/
+	filter:alpha(opacity=60);/*IE透明*/
+	}
+	
+.pic_turns_r .page_r span{
+	background:url(../images/pic_tab_but.png);
+	float:right;
+	width:37px;
+	height:50px;
+	background-position:-47px 0;
+	vertical-align:middle;
+	margin-top:130px;
+	opacity: 0.6;/*火狐透明*/
+	filter:alpha(opacity=60);/*IE透明*/
+	}
+.nv_pic_turns .pic_turns_l{
+	}
+.nv_pic_turns .pic_turns_r{
+	}
+.nv_pic_turns .pic_turns_img{
+	text-align:center;
+	}
+.pic_turns_img img{
+	overflow:hidden;
+	}
+	
+	
+	
+	
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+.hair_diy_top .diy_top_title_fxtp{
+	width:960px;
+	height:35px;
+	float:left;
+	background:url(../images/photo_fx_top.png) no-repeat;
+	margin-bottom:5px;
+	}
+.info_hair_diy .fxtp_turns{
+	width:960px;
+	height:auto;
+	padding:20px 0; 
+	background:#fbfbfb;
+	}
+.fxtp_turns li img{
+	padding:2px;
+	border:1px solid #d9d9d9;
+	}
+.fxtp_turns li p a{
+	color:#fff;
+	font-size:12px;
+	}
+.fxtp_turns li p{
+	width:180px;
+	padding:0 3px;
+	text-align:center;
+	height:35px;
+	line-height:34px;
+	background:#656565;
+	overflow:hidden;
+	}
+.fxtp_turns li{
+	padding-left:5px;
+	display:inline;
+	width:186px;
+	float:left;
+	}	
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_子栏目幻灯片css-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-开始-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_子栏目幻灯片css-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+.focusall{
+	width:300px;
+	height:330px;
+	background:#f2f3f5;
+	position:relative;
+	}
+.focusall_box{
+	float:left;
+	}
+.imgborder1{
+	border: #e2e2e2 1px solid;
+	padding:3px;
+	}
+.focuscon{
+	width:300px;
+	height:330px;
+	}
+.focuscon dl {
+	position:absolute;
+	width:300px;
+	height:330px;
+	}
+.alphabg {
+	position:absolute;
+	background:#000;
+	opacity: 0.6;/*火狐透明*/
+	filter:alpha(opacity=60);/*IE透明*/
+	}
+.focuscon .box_info{
+	width:300px;
+	height:35px;
+	bottom:0;
+	left:0;
+	}
+.p_text{
+	left:0;
+	bottom:0;
+	position:absolute;
+	height:35px;
+	line-height:34px;
+	text-align:center;
+	width:300px;
+	overflow:hidden;
+	}
+.p_size{
+	color:#fff;
+	font-size:14px;
+	}
+.p_text a{
+	text-decoration:none;
+	color:#fff;
+	}
+.p_text a:hover{
+	text-decoration:underline;
+	}
+.focustag {
+	position:absolute;
+	width:52px;
+	bottom:39px;
+	left:250px;
+	}
+.focustag li{
+	border-radius:8px;
+	text-align:center;
+	line-height:16px;
+	display:inline;
+	background:#2f2c27;
+	float:left;
+	width:16px;
+	height:16px;
+	color:#fff;
+	margin-left:1px;
+	cursor:pointer;
+	}
+.focustag li.cur {
+	background:#A80000;
+	}
+
+/*********女生发型焦点图CSS************/
+.slide{
+	background:#fff;
+	position:relative;
+	width:300px;
+	clear:both;
+	height:320px;
+	overflow:hidden;
+	margin:0 auto;
+	}
+.slide dl{
+	position:absolute;
+	width:300px;
+	height:320px;
+	}
+.pic_box{
+	position:relative;
+	margin-right:1px;
+	width:300px;
+	display:inline;
+	float:left
+	}
+.prev_style,.next_style{
+	z-index:111;
+	top:150px;
+	position:absolute;
+	cursor:pointer;
+	}
+.left0{
+	left:0;
+	}
+.left0 img,.right0 img{
+	}
+.right0{
+	right:0;
+	}
+
+
+/***************************顶部NEW幻灯css*************************/
+.slide_main{
+	width:308px;
+	height:378px;
+	}
+.slide_border{
+	widows:300px;
+	padding:3px;
+	background:#fff;
+	border:#e2e2e2;
+	}
+.slide_rl{
+	border:#e2e2e2 1px solid;
+	padding:1px;
+	width:300px;
+	}
+.slide_img{
+	position:relative;
+	}
+#rlsdcon{
+	border-bottom:#C20000 2px solid;
+	width:300px;
+	height:330px;
+	}
+.slide_dl{
+	position:absolute;
+	height: 330px;
+	overflow: hidden;
+	}
+.alphabg{
+	left:0;
+	bottom:0;
+	height:35px;
+	width:300px;
+	position:absolute;
+	background:#000;
+	filter:alpha(opacity=70);/*IE透明*/
+	opacity:0.7;/*火狐透明*/
+	}
+.slide_p{
+	position:absolute;
+	text-align:center;
+	font-size:14px;
+	width:300px;
+	left:0;
+	bottom:0;
+	height:35px;
+	line-height:35px;
+	}
+.slide_p a{
+	color:#fff;
+	}
+.rlsdtag{
+	width:250px;
+	line-height:32px;
+	padding-left:50px;
+	background:#000;
+	height:33px;
+	font-size:14px;
+	font-family:"Times New Roman",Times,serif;
+	}
+.rlsdtag_ul{
+	width:220px;
+	height:20px;
+	line-height:16px;
+	text-align:center;
+	padding-top:6px;
+	}
+.rlsdtag li{
+	font-family:"宋体";
+	text-align:center;
+	display:inline;
+	margin-right:5px;
+	width:16px;
+	height:16px;
+	border-radius:10px;
+	background:#656565;
+	padding:2px;
+	float:left;
+	color:#fff;
+	cursor:pointer;
+	}
+.rlsdtag li.cur {
+	color:#fff;
+	background:#a80000;
+	}
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-女生发型右边幻灯CSS-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-女生发型右边幻灯CSS-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+	
+	
+	
+	
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-发型图片CSS-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+.prev_style,.next_style{
+	z-index:111;
+	top:70px;
+	position:absolute;
+	cursor:pointer;
+	}
+.left0{
+	left:0;
+	}
+.right0{
+	right:0;
+	}
+
+.slide{
+	height:200px;
+	overflow:hidden;
+	width:960px;
+	margin:0 auto;
+	background:#fff;
+	position:relative;
+	}
+.slide DL {
+	width:960px;
+	height:200px;
+	position:absolute;
+	}
+.photo_pic{
+	position:relative;
+	margin-left:10px;
+	width:180px;
+	display:inline;
+	float:left;
+	}
+.alphabg_pic{
+	left:0;
+	bottom:0;
+	width:180px;
+	height:25px;
+	overflow:hidden;
+	position:absolute;
+	background:#000;
+	opacity: 0.6;/*火狐透明*/
+	filter:alpha(opacity=60);/*IE透明*/
+	}
+.photo_pic a img{
+	}
+.alphabg_p{
+	left:0;
+	bottom:0;
+	position:absolute;
+	height:25px;
+	line-height:24px;
+	width:180px;
+	text-align:center;
+	font-size:14px;
+	color:#fff;
+	overflow:hidden;
+	}
+.alphabg_p a{
+	color:#fff;
+	text-decoration:none;
+	}
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-女生发型右边幻灯CSS-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+
+.star_r{
+	background:#000;
+	max-width:300px;
+	margin:0 auto;
+	position:relative;
+	}
+.star_r_img{
+	position:relative;
+	width:300px;
+	height:320px;
+	}
+.star_r_img dl{
+	position:absolute;
+	outline:none;
+	resize:none;
+	}
+.star_img{
+	outline:none;
+	}
+.text_bg{
+	left:0;
+	bottom:0;
+	width:300px;
+	height:35px;
+	position:absolute;
+	background:#000;
+	opacity: 0.7;/*火狐透明*/
+	filter:alpha(opacity=70);/*IE透明*/
+	}
+.text_p{
+	left:0;
+	bottom:0;
+	position:absolute;
+	height:35px;
+	line-height:34px;
+	width:300px;
+	text-align:center;
+	}
+.text_p a{
+	font-size:14px;
+	color:#fff;
+	}
+.videotag{
+	left:0;
+	bottom:0;
+	position:absolute;
+	height:35px;
+	width:300px;
+	text-align:center;
+	}
+.videotag .videotag_box{
+	position:relative;
+	width:300px;
+	height:35px;
+	}
+.videotag_box .videotag_ul{
+	position:absolute;
+	bottom:10px;
+	*top:0px;
+	left:100px;
+	}
+.videotag_box li {
+	text-indent:-99999px;
+	width:9px;
+	display:inline;
+	background:url(../images/point_white.png) no-repeat center 50%;
+	float:left;
+	height:9px;
+	margin-left:8px;
+	overflow:hidden;
+	cursor:pointer;
+	}
+.videotag_box li.cur {
+	background:url(../images/point_red.png) no-repeat center 50%;
+	}
+
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_子栏目幻灯片css-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-结束-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_子栏目幻灯片css-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-广告css-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+.i_cgc {
+float: left;
+width: 189px;
+height: 15px;
+line-height: 15px;
+margin-left: 1px;
+}
+
+
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-广告css-_-END-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+
+
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+/*-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+
+
+/************************公用头部html——css*End*********************/
+
+
+
+
+/*************底部*******************/
+/*************底部*******************/
+/*************底部*******************/
+.foot{ float:left; width:960px; text-align:center; border-top:1px solid #dadada; margin-top:5px; padding-bottom:40px;}
+.foot span{ color:#898989; font-size:12px;}
+.foot_a{  height:40px; line-height:40px;}
+.foot a{ font-size:12px; color:#535353;}
+.foot a:hover{
+	color:#cf0000;
+	text-decoration:underline;
+	}
+.foot_logo{ margin-top:15px; margin-bottom:20px;}
+/*************底部*End******************/
+/*-----------link-foot-----------*/
+#footf a{font-size: 12px;}
+.friend_link{width:960px;height:expression(this.style.height >=this.scrollHeight? "100px ":this.scrollHeight+ "px ");margin-top:1px;}
+
+.friend_link1{width:960px;height:22px;text-align:left;line-height:22px;margin-top:0px;font-weight:bold; font-size:12px;
+	border-bottom-width:1px;border-bottom-style: solid;border-bottom-color: #AEABAB;}
+.Menub {
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    list-style: none outside none;
+    margin-left: 0;
+    margin-top: 0;
+    width: 258px;
+}
+.Menub ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.Menub li.hover {
+    background: url("../images/s_an17.gif") repeat scroll 0 0 transparent;
+    color: #000000;
+    float: left;
+    font-weight: bold;
+    height: 28px;
+    line-height: 28px;
+    list-style: none outside none;
+    width: 80px;
+    cursor: pointer;
+}
+.Menub li {
+    background: url("../images/s_an17a.gif") repeat scroll 0 0 transparent;
+    border-bottom: medium none;
+    color: #000000;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    height: 28px;
+    line-height: 28px;
+    list-style: none outside none;
+    margin-left: 4px;
+    text-align: center;
+    width: 80px;
+}
+.friend_linkn{width:940px;height:22px;text-align:left;line-height:22px;font-size:12px; margin-top:6px;margin-left:11px!important;margin-left:11px;}
+.friend_link1a{width: 920px; height:14px;text-align:left;line-height:14px; margin-top: 2px;font-weight: bold; font-size:12px;}
+
+
+.friend_link2{float:left;width:958px; height:110px;text-align:left;margin-top: 0px;
+border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #D6D6D6;
+	border-bottom-color: #D6D6D6;
+	border-left-color: #D6D6D6;
+
+}
+
+
+
+#foot{ width: 960px; height:20px;margin-top:0px!important;margin-top:0px;margin-right: auto; margin-left: auto;border-bottom-width: 1px;border-bottom-style: solid;border-bottom-color: #ACA899;overflow: hidden;clear: both;}
+#foot1{ text-align:center; width: 960px; height:20px; margin-top:12px!important;margin-top:12px;BACKGROUND: #ffffff; margin-right: auto; font-size:12px;color:#000000;text-decoration:none;margin-left: auto;clear: both;}
+#foot2{ line-height:22px; text-align:center; width: 960px; height:100px; margin-top:12px!important;margin-top:12px;BACKGROUND: #ffffff; margin-right: auto; margin-left: auto;font-size:12px;color:#000000;text-decoration:none;clear: both;}
+#footf{width: 960px;margin-right: auto; margin-left: auto; background:#fff;}
+.fenxiang{
+	width: 700px;
+	height: 45px;
+	margin: 0 auto;
+	margin-top: 5px;
+	}
+.news_guanggao{float:left;width:218px; height:60px;}
+
+
+/******************中间内容部分*******************/
+/******************中间内容部分*******************/
+/******************中间内容部分*******************/
+.bd-adIcon {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 30px;
+    height: 15px;
+    overflow: hidden;
+    z-index: 2147483647;
+    text-decoration: none;
+    background: url(http://www.faxingw.cn/js/html_js/images/advertisement.png) no-repeat left top;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src="http://www.faxingw.cn/js/html_js/images/advertisement.png", sizingMethod="crop");
+    _background: 0;
+}
